@@ -131,6 +131,3 @@ The server reads `.env` on startup; variables already set in the shell take prec
 
 Full list: [docs/limitations.md](docs/limitations.md). Test coverage and its gaps: [docs/testing.md](docs/testing.md).
 
-## Remaining documentation work
-
-Screenshots of the chat, a planned route, the language switcher (including Arabic right-to-left) and the mock payment page should be added under `docs/screenshots/`.
