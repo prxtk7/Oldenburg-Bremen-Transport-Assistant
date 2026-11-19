@@ -117,29 +117,6 @@ The server reads `.env` on startup; variables already set in the shell take prec
 
 **LLM fallback behaviour:** if `OLLAMA_BASE_URL` and `OLLAMA_MODEL` are set, Ollama is always used — there is no automatic switch to OpenAI if Ollama is unavailable. `.env.example` enables Ollama by default; blank both variables to use OpenAI, or leave all three empty to run without an LLM. Without an LLM, trip requests the parser understands still work; messages that would need the LLM receive an "AI backend is not configured" reply.
 
-## Team and contributions
-
-This is a three-member group project. All three team members contributed equally to the development of the application.
-
-| Team member | |
-|---|---|
-| [Your Name] | Co-developer; usability evaluation (see below) |
-| [Team Member 2] | Co-developer |
-| [Team Member 3] | Co-developer |
-
-**[Your Name]** additionally:
-
-- designed structured usability-testing scenarios;
-- led the evaluation of the conversational transport prototype;
-- analysed user feedback and developed prioritised UX improvement recommendations;
-- applied HCI methods to evaluate functional requirements and user needs;
-- transcribed user-study sessions locally with Faster-Whisper and Python scripts, and used the transcripts to support AI-assisted feedback analysis.
-
-The study materials, transcripts and analysis scripts are not part of this repository.
-
-**Licence:** no licence has been chosen yet. Until all authors agree on one, no permission to reuse, modify or redistribute this code is granted.
-
-**Third-party data:** place search uses data © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright) (ODbL). Timetable and routing data come from VBN; see the VBN Open Data page for its licence terms.
 
 ## Limitations and known constraints
 
